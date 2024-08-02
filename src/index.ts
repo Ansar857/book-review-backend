@@ -2,7 +2,7 @@ import express from 'express';
 import dotenv from 'dotenv';
 import connectDB from './config/database';
 import authRoutes from './routes/auth';
-import reviewRoutes from './routes/Review';
+import reviewRoutes from './routes/review';
 
 dotenv.config();
 
